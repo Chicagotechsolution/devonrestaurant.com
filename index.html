@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Devon Restaurant — South Asian cooking on Devon Avenue, Chicago</title>
+<meta name="description" content="Devon Restaurant is a new South Asian restaurant opening on Devon Avenue, Chicago's historic desi food street. Tandoor breads, slow curries, and a menu built around the avenue's own traditions.">
+<link rel="canonical" href="https://devonrestaurant.com/">
+<meta property="og:title" content="Devon Restaurant — opening on Devon Avenue, Chicago">
+<meta property="og:description" content="Tandoor breads, slow curries, and a menu built around Devon Avenue's own traditions. Opening soon.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://devonrestaurant.com/">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%237D2436'/%3E%3Cpath d='M16 6c4 3.4 6 6.8 6 10.2 0 4-2.7 6.8-6 6.8s-6-2.8-6-6.8C10 12.8 12 9.4 16 6z' fill='none' stroke='%23C08F3F' stroke-width='1.8'/%3E%3Cpath d='M16 11.5c1.9 1.8 2.8 3.5 2.8 5.2 0 2.1-1.2 3.4-2.8 3.4s-2.8-1.3-2.8-3.4c0-1.7.9-3.4 2.8-5.2z' fill='%23C08F3F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@500;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Devon Restaurant","url":"https://devonrestaurant.com/","servesCuisine":["Indian","Pakistani","South Asian"],"description":"A new South Asian restaurant opening on Devon Avenue in Chicago, serving tandoor breads and slow-cooked curries.","areaServed":"Chicago, IL"}
+</script>
+<style>
+:root{
+  --paper:#F8F2E9; --ink:#2A1A1F; --pom:#7D2436; --brass:#C08F3F;
+  --leaf:#44614C; --rose:#E9D9C8; --line:#DCC9B4;
+  --slab:"Hepta Slab",Georgia,serif; --sans:"Source Sans 3",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6}
+a{color:var(--pom)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.site{background:var(--pom);color:var(--rose)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:#fff}
+.brand svg{flex:none}
+.brand b{font-family:var(--slab);font-weight:700;font-size:1.25rem;letter-spacing:.01em}
+.brand small{display:block;font-weight:400;font-size:.78rem;color:var(--rose)}
+nav.main a{color:var(--rose);text-decoration:none;margin-left:20px;font-size:.95rem}
+nav.main a:hover{color:#fff;text-decoration:underline;text-underline-offset:4px}
+/* Hero: split statement + tandoor scene */
+.hero{background:var(--pom);color:var(--rose)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-top:56px;padding-bottom:64px}
+.hero h1{font-family:var(--slab);font-weight:800;color:#fff;font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.1;max-width:16ch}
+.hero p.lede{margin-top:18px;max-width:50ch;font-size:1.1rem}
+.hero .actions{margin-top:28px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 22px;border-radius:2px;text-decoration:none;font-weight:600;font-size:.98rem;border:0;cursor:pointer;font-family:var(--sans)}
+.btn-brass{background:var(--brass);color:var(--ink)}
+.btn-brass:hover{background:#d4a455}
+.btn-line{border:1.5px solid var(--rose);color:#fff;background:transparent}
+.btn-line:hover{background:rgba(255,255,255,.08)}
+.hero-art{justify-self:center}
+.opens{background:var(--ink);color:var(--rose);font-size:.95rem}
+.opens .wrap{padding-top:12px;padding-bottom:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.opens svg{flex:none}
+section{padding:60px 0}
+.kicker{color:var(--pom);font-weight:600;font-size:.95rem;margin-bottom:8px}
+h2{font-family:var(--slab);font-weight:700;font-size:clamp(1.6rem,3vw,2.3rem);line-height:1.2;margin-bottom:14px}
+/* Street section */
+.street{border-bottom:1px solid var(--line)}
+.street .cols{display:grid;grid-template-columns:.9fr 1.1fr;gap:46px;align-items:start}
+.street p{max-width:58ch;margin-bottom:14px}
+.street-facts{border-top:3px solid var(--pom);padding-top:4px}
+.street-facts li{list-style:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px dashed var(--line);align-items:flex-start}
+.street-facts svg{flex:none;margin-top:3px}
+.street-facts b{display:block;font-weight:600}
+/* Menu */
+.menu{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 56px;margin-top:22px}
+.menu-col h3{font-family:var(--slab);font-weight:700;font-size:1.15rem;color:var(--pom);border-bottom:2px solid var(--brass);padding-bottom:8px;margin:26px 0 4px}
+.menu-col h3:first-child{margin-top:0}
+.dish{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid #EEE3D4}
+.dish:last-child{border-bottom:0}
+.dish b{font-weight:600}
+.dish small{display:block;color:#6b5a50;font-size:.9rem;font-weight:400;max-width:40ch}
+.dish .price{font-family:var(--slab);font-weight:500;color:var(--leaf);white-space:nowrap}
+.menu-note{margin-top:20px;font-size:.92rem;color:#6b5a50;max-width:72ch}
+/* Tandoor band */
+.band{background:var(--ink);color:var(--rose);padding:46px 0}
+.band .wrap{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:center}
+.band h2{color:#fff;margin-bottom:10px}
+.band p{max-width:60ch}
+/* Visit / waitlist */
+.visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.visit p{max-width:52ch;margin-bottom:14px}
+form{display:grid;gap:14px}
+label{font-weight:600;font-size:.92rem}
+input,select{width:100%;padding:11px 12px;border:1.5px solid var(--ink);border-radius:2px;background:#fff;font:inherit;font-size:.98rem}
+.form-note{font-size:.88rem;color:#6b5a50}
+footer.site{background:var(--pom);color:var(--rose);padding:42px 0 28px}
+footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px}
+footer h3{font-family:var(--slab);font-size:1.15rem;margin-bottom:10px;color:#fff}
+footer a{color:var(--rose);text-decoration:none;display:block;padding:4px 0;font-size:.95rem}
+footer a:hover{color:#fff;text-decoration:underline}
+footer .fineprint{grid-column:1/-1;border-top:1px solid #96455a;margin-top:24px;padding-top:15px;font-size:.85rem;color:#D9B9AE;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media (max-width:880px){
+  .hero .wrap,.street .cols,.visit .wrap{grid-template-columns:1fr}
+  .hero-art{display:none}
+  .menu-grid{grid-template-columns:1fr}
+  .band .wrap{grid-template-columns:1fr}
+  footer .wrap{grid-template-columns:1fr 1fr}
+}
+@media (max-width:540px){footer .wrap{grid-template-columns:1fr}nav.main a{margin-left:0;margin-right:16px}}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Devon Restaurant home">
+      <svg width="36" height="36" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="4" fill="#5E1A29"/><path d="M16 6c4 3.4 6 6.8 6 10.2 0 4-2.7 6.8-6 6.8s-6-2.8-6-6.8C10 12.8 12 9.4 16 6z" fill="none" stroke="#C08F3F" stroke-width="1.8"/><path d="M16 11.5c1.9 1.8 2.8 3.5 2.8 5.2 0 2.1-1.2 3.4-2.8 3.4s-2.8-1.3-2.8-3.4c0-1.7.9-3.4 2.8-5.2z" fill="#C08F3F"/></svg>
+      <span><b>Devon Restaurant</b><small>Devon Avenue, Chicago</small></span>
+    </a>
+    <nav class="main" aria-label="Main">
+      <a href="#street">The street</a>
+      <a href="#menu">Opening menu</a>
+      <a href="#visit">Be first in</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Cooking that tastes like the avenue it's named for.</h1>
+      <p class="lede">Devon Avenue has fed Chicago's South Asian communities for decades — tandoors going all day, karahis on every corner, sweets by the kilo. Devon Restaurant is our kitchen's answer to that street: naan pulled hot from the clay oven, curries cooked slow, nothing out of a packet.</p>
+      <div class="actions">
+        <a class="btn btn-brass" href="#menu">See the opening menu</a>
+        <a class="btn btn-line" href="#visit">Join the opening list</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <!-- Tandoor still life: engraved treatment — modeled clay body, ember glow, blistered naan -->
+      <svg width="320" height="340" viewBox="0 0 320 340" role="img" aria-label="">
+        <defs>
+          <radialGradient id="dr-clay" cx="36%" cy="28%" r="90%">
+            <stop offset="0" stop-color="#B2613E"/><stop offset=".55" stop-color="#8E3A24"/><stop offset="1" stop-color="#521C10"/>
+          </radialGradient>
+          <radialGradient id="dr-ember" cx="50%" cy="70%" r="75%">
+            <stop offset="0" stop-color="#E8A04C"/><stop offset=".45" stop-color="#8F2F14"/><stop offset="1" stop-color="#1B0F12"/>
+          </radialGradient>
+          <linearGradient id="dr-naan" x1="0" y1="0" x2=".8" y2="1">
+            <stop offset="0" stop-color="#F3E7D3"/><stop offset=".7" stop-color="#E0C49D"/><stop offset="1" stop-color="#C6A071"/>
+          </linearGradient>
+        </defs>
+        <!-- ground shadow with hatch -->
+        <ellipse cx="160" cy="314" rx="132" ry="15" fill="#4A1420" opacity=".85"/>
+        <g stroke="#2E0C14" stroke-width="1" opacity=".5">
+          <path d="M50 312h220M66 317h188M90 322h140"/>
+        </g>
+        <!-- oven body -->
+        <path d="M80 300c-8-90 20-160 80-160s88 70 80 160z" fill="url(#dr-clay)"/>
+        <!-- form-following contour hatching -->
+        <g fill="none" stroke="#3E150C" stroke-linecap="round">
+          <path d="M92 282c-3-58 12-108 38-126" stroke-width="1.4" opacity=".55"/>
+          <path d="M101 292c-4-66 11-122 34-140" stroke-width="1.1" opacity=".45"/>
+          <path d="M228 282c3-58-12-108-38-126" stroke-width="1.4" opacity=".6"/>
+          <path d="M219 292c4-66-11-122-34-140" stroke-width="1.1" opacity=".5"/>
+          <path d="M210 298c4-72-8-130-28-148" stroke-width=".9" opacity=".4"/>
+          <path d="M96 236c20 8 44 12 64 12s46-4 64-12" stroke-width="1.1" opacity=".45"/>
+          <path d="M92 262c22 8 46 12 68 12s48-4 68-12" stroke-width="1.2" opacity=".5"/>
+          <path d="M104 206c18 7 38 10 56 10s40-3 56-10" stroke-width="1" opacity=".4"/>
+        </g>
+        <!-- highlight on lit side -->
+        <path d="M112 170c10-14 24-22 38-24-20 14-30 48-32 96-6-24-10-52-6-72z" fill="#C97B50" opacity=".35"/>
+        <!-- banding rings -->
+        <g stroke="#C08F3F" fill="none" opacity=".8">
+          <path d="M118 190c12 5 27 7 42 7s30-2 42-7" stroke-width="1.8"/>
+          <path d="M112 216c14 5 31 8 48 8s34-3 48-8" stroke-width="1.6"/>
+          <path d="M109 242c15 6 33 9 51 9s36-3 51-9" stroke-width="1.4"/>
+        </g>
+        <!-- mouth with ember glow -->
+        <ellipse cx="160" cy="146" rx="53" ry="17" fill="#241114"/>
+        <ellipse cx="160" cy="143" rx="52" ry="16" fill="#49281F"/>
+        <ellipse cx="160" cy="143" rx="39" ry="11.5" fill="url(#dr-ember)"/>
+        <g stroke="#E8A04C" stroke-width=".9" opacity=".6" fill="none">
+          <path d="M132 146c8 3 18 5 28 5s20-2 28-5"/>
+          <path d="M140 141c6 2 13 3 20 3s14-1 20-3"/>
+        </g>
+        <!-- heat shimmer, etched -->
+        <g stroke="#C08F3F" stroke-width="1.1" fill="none" opacity=".45">
+          <path d="M146 122c3-6-2-10 1-16M160 118c3-7-3-12 0-19M174 122c3-6-2-10 1-16"/>
+        </g>
+        <!-- naan, blistered and shaded -->
+        <g>
+          <circle cx="258" cy="86" r="34" fill="url(#dr-naan)"/>
+          <circle cx="258" cy="86" r="34" fill="none" stroke="#8A6233" stroke-width="1.6"/>
+          <path d="M232 106c6 8 16 13 26 13 14 0 26-8 31-20-3 15-16 26-31 26-13 0-24-8-26-19z" fill="#A87C48" opacity=".5"/>
+          <g fill="#8A5A28">
+            <circle cx="247" cy="76" r="3.4"/><circle cx="266" cy="93" r="3"/><circle cx="263" cy="70" r="2.4"/><circle cx="244" cy="96" r="2.6"/><circle cx="272" cy="80" r="2.2"/>
+          </g>
+          <g fill="#F7EEDC" opacity=".8">
+            <circle cx="245.8" cy="74.8" r="1.3"/><circle cx="264.8" cy="91.8" r="1.1"/><circle cx="261.8" cy="68.8" r="1"/>
+          </g>
+          <g stroke="#8A6233" stroke-width=".7" fill="none" opacity=".5">
+            <path d="M236 94c7 6 14 9 22 9M240 100c6 5 12 7 18 7"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="60" cy="120" r="24" fill="url(#dr-naan)"/>
+          <circle cx="60" cy="120" r="24" fill="none" stroke="#8A6233" stroke-width="1.4"/>
+          <path d="M42 134c4 5 11 9 18 9 10 0 18-6 22-14-2 11-11 19-22 19-9 0-17-6-18-14z" fill="#A87C48" opacity=".5"/>
+          <g fill="#8A5A28"><circle cx="53" cy="113" r="2.4"/><circle cx="67" cy="126" r="2.2"/><circle cx="64" cy="110" r="1.8"/></g>
+          <g fill="#F7EEDC" opacity=".8"><circle cx="52" cy="112" r="1"/><circle cx="66" cy="125" r=".9"/></g>
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="opens" role="status">
+  <div class="wrap">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C08F3F" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+    <span>We're fitting out the dining room now. Opening details — date, hours, and exact block — will be published here first.</span>
+  </div>
+</div>
+
+<section id="street" class="street">
+  <div class="wrap cols">
+    <div>
+      <p class="kicker">Why Devon</p>
+      <h2>One street taught us everything on this menu.</h2>
+      <p>Devon Avenue, on Chicago's far north side, is the city's South Asian corridor — a stretch of Indian, Pakistani, and Bangladeshi groceries, sweet shops, and restaurants that families have crossed the city to visit for generations.</p>
+      <p>We're not opening near Devon. We're opening on it, because this food belongs where people argue about whose nihari is best and buy their spices whole, by the bag. The street sets a high bar. That's the point.</p>
+    </div>
+    <ul class="street-facts">
+      <li>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7D2436" stroke-width="2" aria-hidden="true"><path d="M4 21V9l8-5 8 5v12"/><path d="M9 21v-6h6v6"/></svg>
+        <span><b>A working street, not a theme</b> Our neighbors are butchers, grocers, and sari shops. We buy on the block where we cook.</span>
+      </li>
+      <li>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7D2436" stroke-width="2" aria-hidden="true"><path d="M12 3c3.5 3 5.2 5.9 5.2 8.8 0 3.4-2.3 5.7-5.2 5.7s-5.2-2.3-5.2-5.7C6.8 8.9 8.5 6 12 3z"/><path d="M8 21h8"/></svg>
+        <span><b>Clay tandoor, charcoal heat</b> Breads and kababs come off a real tandoor — the oven the avenue runs on.</span>
+      </li>
+      <li>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7D2436" stroke-width="2" aria-hidden="true"><path d="M5 11c0 5 3.1 8 7 8s7-3 7-8H5z"/><path d="M9 7c0-1.5 1-2 1-3M14 7c0-1.5 1-2 1-3"/></svg>
+        <span><b>Slow pots, whole spices</b> Nihari, haleem, and dal cooked for hours, spiced from whole seeds we toast and grind ourselves.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="menu" class="menu">
+  <div class="wrap">
+    <p class="kicker">Opening menu</p>
+    <h2>What we plan to serve on day one.</h2>
+    <div class="menu-grid">
+      <div class="menu-col">
+        <h3>From the tandoor</h3>
+        <div class="dish"><span><b>Naan, plain or butter</b><small>Stretched to order, blistered on the clay wall.</small></span><span class="price">3 / 4</span></div>
+        <div class="dish"><span><b>Garlic-cilantro naan</b><small>Brushed with ghee as it comes off the oven.</small></span><span class="price">5</span></div>
+        <div class="dish"><span><b>Chicken tikka</b><small>Thigh meat, yogurt and Kashmiri chili marinade, charred edges.</small></span><span class="price">14</span></div>
+        <div class="dish"><span><b>Seekh kabab</b><small>Hand-minced beef, green chili and mint, two skewers.</small></span><span class="price">15</span></div>
+        <h3>Slow pots</h3>
+        <div class="dish"><span><b>Nihari</b><small>Beef shank simmered overnight, served with ginger, lemon, and fried chilies.</small></span><span class="price">17</span></div>
+        <div class="dish"><span><b>Haleem</b><small>Wheat, lentils, and beef pounded to silk; crisp onions on top.</small></span><span class="price">15</span></div>
+        <div class="dish"><span><b>Dal makhani</b><small>Black lentils finished with butter and a long rest on low heat.</small></span><span class="price">13</span></div>
+      </div>
+      <div class="menu-col">
+        <h3>Karahi &amp; rice</h3>
+        <div class="dish"><span><b>Chicken karahi</b><small>Tomato, ginger, black pepper — cooked and served in the wok.</small></span><span class="price">18</span></div>
+        <div class="dish"><span><b>Goat biryani</b><small>Layered basmati, bone-in goat, crisped potatoes at the bottom of the pot.</small></span><span class="price">17</span></div>
+        <div class="dish"><span><b>Vegetable pulao</b><small>Seasonal vegetables, whole garam masala, saffron water.</small></span><span class="price">12</span></div>
+        <h3>Sweets &amp; chai</h3>
+        <div class="dish"><span><b>Gulab jamun</b><small>Two, warm, in cardamom syrup.</small></span><span class="price">6</span></div>
+        <div class="dish"><span><b>Kheer</b><small>Rice pudding cooked down slow, pistachio and silver leaf.</small></span><span class="price">6</span></div>
+        <div class="dish"><span><b>Doodh patti chai</b><small>Strong tea boiled in milk, the way the avenue drinks it.</small></span><span class="price">4</span></div>
+      </div>
+    </div>
+    <p class="menu-note">Prices shown are our planned opening prices and may be adjusted before we open. The full menu — including daily specials and a kids' list — will be published with our opening date.</p>
+  </div>
+</section>
+
+<div class="band">
+  <div class="wrap">
+    <svg width="110" height="110" viewBox="0 0 110 110" aria-hidden="true">
+      <!-- engraved ember roundel -->
+      <circle cx="55" cy="55" r="52" fill="none" stroke="#C08F3F" stroke-width="1.6"/>
+      <circle cx="55" cy="55" r="47.5" fill="none" stroke="#C08F3F" stroke-width=".7" opacity=".6"/>
+      <g stroke="#C08F3F" stroke-width=".6" opacity=".35" fill="none">
+        <path d="M55 8v8M55 94v8M8 55h8M94 55h8M21.7 21.7l5.7 5.7M82.6 82.6l5.7 5.7M88.3 21.7l-5.7 5.7M27.4 82.6l-5.7 5.7"/>
+      </g>
+      <path d="M55 22c11 10 17 19.5 17 28.5C72 62 64.5 70 55 70s-17-8-17-19.5C38 41.5 44 32 55 22z" fill="#C08F3F"/>
+      <g stroke="#7A5420" stroke-width=".9" fill="none" opacity=".7">
+        <path d="M46 36c-3 5-5 10-5 14.5 0 7 4 12.5 9 14.5"/>
+        <path d="M49 31c-4 6-7 12-7 17.5"/>
+      </g>
+      <path d="M55 38c5.5 5.5 8.5 10.5 8.5 15 0 6-3.8 10-8.5 10s-8.5-4-8.5-10c0-4.5 3-9.5 8.5-15z" fill="#2A1A1F"/>
+      <path d="M58 44c2.5 3.5 4 7 4 9.5 0 3.6-1.8 6-4 6.8 3.4.2 6.3-2.6 6.3-6.8 0-3-2.4-6.6-6.3-9.5z" fill="#E9D9C8" opacity=".4"/>
+      <g stroke="#C08F3F" fill="none" stroke-linecap="round">
+        <path d="M37 80h36" stroke-width="1.8"/>
+        <path d="M42 87h26" stroke-width="1.1" opacity=".75"/>
+        <path d="M47 93h16" stroke-width=".8" opacity=".55"/>
+      </g>
+    </svg>
+    <div>
+      <h2>The tandoor is already seasoned.</h2>
+      <p>A clay oven gets better with use, so ours has been firing for weeks — testing naan, burning in the walls, finding the right charcoal. By the time the doors open, it won't taste like a new restaurant. That's deliberate.</p>
+    </div>
+  </div>
+</div>
+
+<section id="visit" class="visit">
+  <div class="wrap">
+    <div>
+      <p class="kicker">Be first in</p>
+      <h2>Get the opening date before the signage goes up.</h2>
+      <p>Leave your name and we'll tell you the opening date, the soft-launch nights, and when reservations open. One or two notes total — we'd rather cook than email.</p>
+      <p>Until then: no phone line, no reservations, and the paper on the windows stays up. Opening details will be published on this page.</p>
+    </div>
+    <form action="#" method="post" onsubmit="event.preventDefault();this.querySelector('.form-note').textContent='Thanks — the opening list isn’t live yet, so nothing was sent. Check back closer to opening.';">
+      <div>
+        <label for="name">Your name</label>
+        <input id="name" name="name" required autocomplete="name">
+      </div>
+      <div>
+        <label for="party">Usual table size</label>
+        <select id="party" name="party">
+          <option>1–2</option><option>3–4</option><option>5–8</option><option>Big family dinners</option>
+        </select>
+      </div>
+      <div>
+        <label for="dish">The dish you'd come for first</label>
+        <input id="dish" name="dish" placeholder="e.g., nihari on a cold Sunday">
+      </div>
+      <button class="btn btn-brass" type="submit">Put me on the list</button>
+      <p class="form-note">Sign-ups open with our launch. Nothing you type here leaves your browser yet.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <h3>Devon Restaurant</h3>
+      <p style="max-width:40ch;font-size:.95rem">South Asian cooking opening soon on Devon Avenue, Chicago — clay tandoor, slow pots, whole spices.</p>
+    </div>
+    <div>
+      <h3>On this page</h3>
+      <a href="#street">The street</a>
+      <a href="#menu">Opening menu</a>
+      <a href="#visit">Be first in</a>
+    </div>
+    <div>
+      <h3>Site</h3>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </div>
+    <div class="fineprint">
+      <span>© 2026 Devon Restaurant. All rights reserved.</span>
+      <span>We are not yet open; menu items and prices describe our planned opening offering.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
